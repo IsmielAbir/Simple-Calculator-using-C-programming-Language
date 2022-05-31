@@ -24,11 +24,9 @@ int main(){
         case '^':
         ans=pow(num1,num2);
         break;
-
-
         default:
             goto error;
-        break;4.
+        break;
     }
     printf("%.15g%c%.15g = %.5g\n\n", num1, sign, num2, ans);
     goto exit;
@@ -37,7 +35,4 @@ int main(){
 exit:
 
     return 0;
-
-
-
 }
